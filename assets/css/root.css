@@ -8,6 +8,11 @@
     /* ------------ */
     --color-white: white;
     --color-cream: #A68272;
+    --color-light-black: #5A5656;
+    --color-light-cream: #F7F3F0;
+    --color-dark-black: #6E6D6C;
+    --color-black: #0C0F26;
+    --color-grey: #707070;
 }
 
 .fs-sm {
@@ -36,6 +41,26 @@
 
 .bg-cream {
     background-color: var(--color-cream) !important;
+}
+
+.text-light-black {
+    color: var(--color-light-black) !important;
+}
+
+.text-dark-black {
+    color: var(--color-dark-black) !important;
+}
+
+.text-grey {
+    color: var(--color-grey) !important;
+}
+
+.light-cream {
+    background-color: var(--color-light-cream) !important;
+}
+
+.color-black {
+    color: var(--color-black) !important;
 }
 
 @media (max-width:767.98px) {
