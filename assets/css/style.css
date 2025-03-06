@@ -76,3 +76,8 @@
 .mx-w-480 {
     max-width: 480px;
 }
+
+/*----------section-2 ----------*/
+.mx-w-1164 {
+    max-width: 1164px !important;
+}
