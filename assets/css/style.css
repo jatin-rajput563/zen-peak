@@ -51,6 +51,10 @@
     max-width: 1032px;
 }
 
+.transition {
+    transition: all 200ms linear;
+}
+
 .header-bg {
     background-image: url(../image/png/header-bg.png);
     background-size: cover;
@@ -75,7 +79,6 @@
     border-radius: 127px;
     border: 1px solid #FFFFFF;
     background-color: transparent;
-    transition: all 200ms linear;
 }
 
 .header-btn:hover {
@@ -97,7 +100,6 @@
     max-width: 110px;
     border: 1px solid #FFFFFF;
     background-color: transparent;
-    transition: all 200ms linear;
 }
 
 .about-btn:hover {
@@ -127,4 +129,30 @@
 
 .pt-126 {
     padding-top: 126px;
+}
+
+.mx-w-471 {
+    max-width: 471px;
+}
+
+@media (max-width:575.98px) {
+    .header-btn {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .mx-w-480 {
+        max-width: 240px;
+    }
+
+    .mx-w-594 {
+        max-width: 335px;
+    }
+
+    .mx-w-577 {
+        max-width: 334px;
+    }
+
 }
