@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-.ubnutu-family {
-    font-family: "Ubuntu", sans-serif;
+.ubuntu-family {
+    font-family: "Ubuntu";
 }
 
 /* ----line-height---- */
@@ -31,6 +31,15 @@
 
 .lh-97 {
     line-height: 97.5px;
+}
+
+/* ................ */
+.lh-130 {
+    line-height: 130%;
+}
+
+.lh-150 {
+    line-height: 150%;
 }
 
 /* ----line-height---- */
@@ -80,4 +89,42 @@
 /*----------section-2 ----------*/
 .mx-w-1164 {
     max-width: 1164px !important;
+}
+
+.about-btn {
+    border-radius: 31px;
+    padding: 5px 15px;
+    max-width: 110px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    transition: all 200ms linear;
+}
+
+.about-btn:hover {
+    background-color: var(--color-white) !important;
+    color: var(--color-cream) !important;
+}
+
+.pt-85 {
+    padding-top: 85px;
+}
+
+.pb-62 {
+    padding-bottom: 62px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.mx-w-594 {
+    max-width: 594px;
+}
+
+.mx-w-577 {
+    max-width: 577px;
+}
+
+.pt-126 {
+    padding-top: 126px;
 }
