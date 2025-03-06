@@ -148,6 +148,39 @@
     margin-left: 56px;
 }
 
+/*----------section-4----------*/
+.plus-box {
+    width: 68px;
+    height: 68px;
+    border-radius: 1.66px;
+    background-color: var(--color-cream);
+}
+
+.plus-card {
+    top: 13px;
+    left: 13px;
+}
+
+.pl-13 {
+    padding-left: 13px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.pb-185 {
+    padding-bottom: 185px;
+}
+
 /*----------section-7----------*/
 .mx-w-735 {
     max-width: 735px;
