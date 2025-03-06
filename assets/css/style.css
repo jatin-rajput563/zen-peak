@@ -66,6 +66,11 @@
     border-radius: 127px;
     border: 1px solid #FFFFFF;
     background-color: transparent;
+    transition: all 200ms linear;
+}
+
+.header-btn:hover {
+    background-color: var(--color-cream);
 }
 
 .mx-w-480 {

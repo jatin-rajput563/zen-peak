@@ -5,6 +5,9 @@
     --fs-xl: 24px;
     --fs-2xl: 64px;
     --fs-3xl: 75px;
+    /* ------------ */
+    --color-white: white;
+    --color-cream: #A68272;
 }
 
 .fs-sm {
