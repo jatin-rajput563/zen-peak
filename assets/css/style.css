@@ -135,6 +135,19 @@
     max-width: 471px;
 }
 
+/*----------section-3----------*/
+.pt-64 {
+    padding-top: 64px;
+}
+
+.pb-162 {
+    padding-bottom: 162px;
+}
+
+.ml-56 {
+    margin-left: 56px;
+}
+
 @media (max-width:575.98px) {
     .header-btn {
         width: 100%;
