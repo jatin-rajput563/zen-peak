@@ -98,6 +98,10 @@
     max-width: 1164px !important;
 }
 
+.mtn-1 {
+    margin-top: -1px;
+}
+
 .about-btn {
     border-radius: 31px;
     padding: 5px 15px;
@@ -189,8 +193,23 @@
     max-width: 362px;
 }
 
+.mx-w-361 {
+    max-width: 361px;
+}
+
+.ml-28 {
+    margin-left: 28px;
+}
+
 .mx-w-738 {
     max-width: 738px;
+}
+
+.sec-4-box {
+    background-image: url(../image/png/sec-7-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 /*----------section-7----------*/
@@ -253,6 +272,16 @@
     box-shadow: 0px 4px 31.4px 0px #DAAF95;
 }
 
+@media (max-width:991.92px) {
+    .mt-108 {
+        margin-top: 0;
+    }
+
+    .mt-44 {
+        margin-top: 0;
+    }
+}
+
 @media (max-width:767.98px) {
     .sec-7-cards-box {
         border: transparent;
@@ -267,6 +296,11 @@
         background: transparent;
         border-color: transparent;
         padding: 0 12px;
+    }
+
+    .plus-box {
+        width: 62px;
+        height: 62px;
     }
 }
 

@@ -38,3 +38,38 @@ $('.slider').slick({
         }
     ]
 });
+$('.sec-4-slider').slick({
+    dots: false,
+    infinite: true,
+    prevArrow: ".leftArrow",
+    nextArrow: ".rightArrow",
+    autoplay: true,
+    autoplaySpeed: 5000,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                focusOnSelect: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                focusOnSelect: true
+            }
+        },
+    ]
+});
