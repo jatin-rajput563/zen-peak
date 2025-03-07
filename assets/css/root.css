@@ -66,13 +66,13 @@
 @media (max-width:767.98px) {
     :root {
         --fs-3xl: 60px;
-        /* --fs-2xl: 36px; */
     }
 }
 
 @media (max-width:575.98px) {
     :root {
         --fs-3xl: 43px;
-        --fs-2xl: 36px;
+        --fs-2xl: 34px;
+        --fs-sm: 15px;
     }
 }
