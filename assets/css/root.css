@@ -8,6 +8,7 @@
     /* ------------ */
     --color-white: white;
     --color-cream: #A68272;
+    --color-dark-cream: #DFBCA6;
     --color-light-black: #5A5656;
     --color-light-cream: #F7F3F0;
     --color-dark-black: #6E6D6C;
@@ -61,6 +62,10 @@
 
 .color-black {
     color: var(--color-black) !important;
+}
+
+.bg-dark-cream {
+    background-color: var(--color-dark-black) !important;
 }
 
 @media (max-width:767.98px) {
