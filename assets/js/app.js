@@ -38,6 +38,7 @@ $('.slider').slick({
         }
     ]
 });
+
 $('.sec-4-slider').slick({
     dots: false,
     infinite: true,
